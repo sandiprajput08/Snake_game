@@ -1,5 +1,5 @@
 # Snake (Web Version) 
-
+ URL : https://snake-static.onrender.com
 This folder contains a web version of Snake (HTML/CSS/JS) that can be deployed as a static site on Render.
 
 Files added:
