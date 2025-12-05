@@ -1,0 +1,26 @@
+/* Base reset and typography */
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg, #071426);color:var(--muted, #e6eef2);font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+
+/* Layout */
+.container-main{max-width:980px;margin:28px auto;padding:0 16px}
+
+/* Header */
+.navbar{border-bottom:1px solid rgba(255,255,255,0.03)}
+#score,#best{padding:6px 10px;border-radius:8px;background:rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,0.03)}
+
+/* Card + Canvas */
+.card{border-radius:12px;overflow:hidden}
+.card .card-body{padding:18px}
+canvas{display:block;background:#00141b;border-radius:8px;margin:0 auto;max-width:100%;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+
+/* Controls */
+.btn-lg{min-width:170px}
+
+/* Footer */
+.text-muted{opacity:0.85}
+
+@media(max-width:920px){
+	.container-main{padding:10px}
+	.btn-lg{min-width:120px;font-size:15px}
+}
