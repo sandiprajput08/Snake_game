@@ -1,0 +1,7 @@
+services:
+  - type: static_site
+    name: snake-static
+    env: static
+    branch: main
+    buildCommand: ""
+    publishPath: /

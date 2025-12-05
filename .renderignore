@@ -1,0 +1,4 @@
+# Prevent Render static deploy from picking up Python server files
+requirements.txt
+snake.py
+*.py
